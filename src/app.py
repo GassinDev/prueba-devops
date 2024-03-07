@@ -14,7 +14,6 @@ def homepage():
     return render_template("index.html", the_time=the_time, tema="bread")
 
 
-
 @app.route('/status')
 def status():
     return "OK Todo"
