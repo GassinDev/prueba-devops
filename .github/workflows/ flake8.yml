@@ -15,5 +15,5 @@ jobs:
           python-version: "3.11"
       - name: flake8 Lint
         uses: py-actions/flake8@v2
-      - name: Run Python unit tests
-        run: python3 -u -m pytest discover
+        with:
+          entry_points: "src tests_flask_app.py"
