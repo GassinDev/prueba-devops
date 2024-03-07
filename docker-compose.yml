@@ -1,0 +1,10 @@
+version: "3.1"
+
+services:
+  galeria:
+    container_name: pruebaExamen
+    # Cambios en la imagen
+    image: gassindev/pruebaExamen:latest
+    ports:
+      - 80:5000
+    restart: always
