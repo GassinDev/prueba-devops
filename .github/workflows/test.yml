@@ -19,4 +19,4 @@ jobs:
 
     - name: Ejecutar pruebas TestNG
       run: |
-        python tests_flask_app.py 
+        python src/tests_flask_app.py 
