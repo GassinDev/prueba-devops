@@ -4,7 +4,7 @@ services:
   galeria:
     container_name: pruebaExamen
     # Cambios en la imagen
-    image: gassindev/pruebaExamen:latest
+    image: gassindev/pruebaexamen:latest
     ports:
       - 80:5000
     restart: always
