@@ -16,7 +16,7 @@ def homepage():
 
 @app.route('/status')
 def status():
-    return "OK Todo"
+    return "OK Todo "
 
 
 if __name__ == '__main__':
